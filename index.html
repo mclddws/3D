@@ -97,7 +97,7 @@
       <div class="marker-container">
          <span class="corner-top-left"></span>
          <span class="corner-top-right"></span>
-         <img id="marker-image" src="pattern-marcador.png" alt="AR Marker">   
+         <img id="marker-image" src="./pattern-marcador.png" alt="AR Marker">   
       </div>
       <div class="text">
          <p>Apunta tu camara y espera hasta que el modelo aparezca...</p>
@@ -105,7 +105,7 @@
    </div>
 
    <a-scene arjs vr-mode-ui="enabled: false">
-      <a-marker type="pattern" url="pattern-marcador.patt" id="marker" markerhandler>   
+      <a-marker type="pattern" url="./pattern-marcador.patt" id="marker" markerhandler>   
          <a-entity id="model-entity" 
                    gltf-model="1.glb" 
                    position="0 0 0" 
